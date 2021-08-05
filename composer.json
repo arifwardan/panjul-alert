@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Arifwardan\\Panjulert": "src/"
+            "Arifwardan\\Panjulert\\": "src/"
         }
     },
     "extra": {

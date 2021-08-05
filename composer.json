@@ -1,0 +1,26 @@
+{
+    "name": "arifwardan/panjulert",
+    "description": "the simple and fast alert",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "arifwardan",
+            "email": "arifwardan.id@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Arifwardan\\panjulert": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arifwardan\\Panjulert\\PanjulertServiceProvider"
+            ]
+        }
+    }
+}
